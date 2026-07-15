@@ -315,10 +315,10 @@ Ongoing_Project/
 
 The environment can be extended further by:
 
+- Migrating the structure to UVM for greater reuse and scalability in larger projects.
 - Increasing constrained-random testing across long transfer sequences.
 - Expanding the reference model to predict every status transition cycle-by-cycle.
 - Adding more cross coverage for interrupt events, masks, FIFO state, and active configuration.
 - Adding assertions for exact transfer length, BUSY timing, FIFO ordering, and delay timing.
 - Running a larger multi-seed regression within the available runtime budget.
 - Introducing automated coverage closure and bug-based regression ranking.
-- Migrating the structure to UVM for greater reuse and scalability in larger projects.
